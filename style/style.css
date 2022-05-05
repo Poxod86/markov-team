@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	max-width: 1920px;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+.header_menu {
+	margin: 31px auto 68px;
+}
+.header_menu_contacts {
+	display: flex;
+	margin: 0 37px 24px 77px;
+	font-style: normal;
+	color: #000000;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.contacts_list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.list_margin_right{
+	margin-right: 23px;
+}
+.header_menu_contacts_phone span,
+.header_menu_contacts_email span {
+	font-weight: 500;
+}
